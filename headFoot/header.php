@@ -241,7 +241,7 @@
                         
                         <li>
                             <div class="dropdown">
-                                <a class="dropbtn" id="navicon" href="http://localhost/php_mysql_project/registration/sign up.php">Profile</a>
+                                <a class="dropbtn" id="navicon" href="http://localhost/php_project/registration/sign up.php">Profile</a>
                                 <div class="dropdown-content">
                                    <?php
                         include "../connect2.php";
@@ -257,8 +257,8 @@
                             echo "<li><a href='../registration/logout.php'>logout</a></li>";
                             echo "Welcom " . $user_name;
                         } else {
-                            echo " <a href='http://localhost/php_mysql_project/registration/sign up.php'>Register</a>";
-                            echo "<a href='http://localhost/php_mysql_project/registration/sign up.php'>Login</a>";
+                            echo " <a href='http://localhost/php_project/registration/sign up.php'>Register</a>";
+                            echo "<a href='http://localhost/php_project/registration/login.php'>Login</a>";
                         }
                         ?>
 
