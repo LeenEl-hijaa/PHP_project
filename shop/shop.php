@@ -2,6 +2,7 @@
 include_once "../headFoot/header.php";
  
 require '../connect2.php';
+ 
 
 
 ?>
@@ -148,7 +149,6 @@ $products = $stmt->fetchAll(PDO::FETCH_ASSOC);
 										<img src="fwy6zosqphc8hzjk0rgr.webp" alt="" />
 										<h2>$56</h2>
 										<p>Easy Polo Black Edition</p>
-
 									</div>
 									<div class="product-overlay">
 										<div class="overlay-content">
@@ -158,7 +158,6 @@ $products = $stmt->fetchAll(PDO::FETCH_ASSOC);
 										</div>
 									</div>
 								</div>
-
 							</div>
 						</div>
 						<div class="col-sm-4">
@@ -168,7 +167,6 @@ $products = $stmt->fetchAll(PDO::FETCH_ASSOC);
 										<img src="fwy6zosqphc8hzjk0rgr.webp" alt="" />
 										<h2>$56</h2>
 										<p>Easy Polo Black Edition</p>
-
 									</div>
 									<div class="product-overlay">
 										<div class="overlay-content">
@@ -178,7 +176,6 @@ $products = $stmt->fetchAll(PDO::FETCH_ASSOC);
 										</div>
 									</div>
 								</div>
-
 							</div>
 						</div> -->
 
@@ -213,5 +210,3 @@ $products = $stmt->fetchAll(PDO::FETCH_ASSOC);
 </body>
 
 </html>
-
- 
